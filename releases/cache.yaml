@@ -11,7 +11,7 @@ spec:
   releaseName: cache
   values:
     image: memcached:1.4.36-alpine
-    replicaCount: 1
+    replicaCount: 2
     pdbMinAvailable: 1
     AntiAffinity: "soft"
     memcached:
